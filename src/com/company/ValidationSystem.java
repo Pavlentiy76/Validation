@@ -1,5 +1,7 @@
 package com.company;
 
+import exceptions.ValidationFailedException;
+
 public class ValidationSystem<T> {
 
     private StringValidator sValidator = new StringValidator();

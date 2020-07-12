@@ -1,6 +1,6 @@
-package com.company;
+package com.pasha;
 
-import exceptions.ValidationFailedException;
+import com.pasha.exceptions.ValidationFailedException;
 
 public interface Validator<T> {
 

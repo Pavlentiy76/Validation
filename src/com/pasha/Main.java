@@ -1,6 +1,6 @@
-package com.company;
+package com.pasha;
 
-import exceptions.ValidationFailedException;
+import com.pasha.exceptions.ValidationFailedException;
 
 public class Main {
 
@@ -21,12 +21,12 @@ public class Main {
             ex.printStackTrace();
         }
 
-        try {
+       /* try {
             v.validate(a);
             v.validate(b);
         } catch (ValidationFailedException ex) {
             ex.printStackTrace();
-        }
+        }*/
 
         try {
             v.validate(x);
